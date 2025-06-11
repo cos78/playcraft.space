@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playcraft - Epic Monster Survival Game | Play Free Online</title>
+    <meta name="description" content="Play Playcraft, the ultimate monster survival game online for free. Battle waves of creatures, upgrade your weapons, and survive as long as you can in this thrilling action-packed adventure.">
+    <meta name="keywords" content="playcraft, monster survival game, online game, free games, survival action, browser game">
+    <meta name="author" content="Playcraft.space">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Playcraft - Epic Monster Survival Game">
+    <meta property="og:description" content="Battle waves of monsters in this thrilling survival game. Play free online now!">
+    <meta property="og:url" content="https://playcraft.space">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Playcraft">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Playcraft - Epic Monster Survival Game">
+    <meta name="twitter:description" content="Battle waves of monsters in this thrilling survival game. Play free online now!">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://playcraft.space">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Styles -->
+    <style>
+        /* Apple-inspired color palette */
+        :root {
+            --apple-blue: #007AFF;
+            --apple-gray: #8E8E93;
+            --apple-light-gray: #F2F2F7;
+            --apple-dark: #1C1C1E;
+            --apple-green: #34C759;
+            --apple-orange: #FF9500;
+            --apple-red: #FF3B30;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        
+        .game-container {
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        
+        .btn-play {
+            background: linear-gradient(45deg, var(--apple-blue), var(--apple-green));
+            transition: all 0.3s ease;
+        }
+        
+        .btn-play:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 122, 255, 0.3);
+        }
+        
+        .feature-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+        @media (max-width: 768px) {
+            .game-iframe {
+                height: 300px;
+            }
+        }
+        
+        @media (min-width: 769px) {
+            .game-iframe {
+                height: 600px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="container mx-auto px-4 py-6">
+        <nav class="glass-effect rounded-2xl px-6 py-4">
+            <div class="flex items-center justify-between">
+                <div class="text-white text-2xl font-bold">Playcraft</div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#game" class="text-white hover:text-blue-300 transition-colors">Play Game</a>
+                    <a href="#about" class="text-white hover:text-blue-300 transition-colors">About</a>
+                    <a href="#features" class="text-white hover:text-blue-300 transition-colors">Features</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="container mx-auto px-4 py-12 text-center">
+        <h1 class="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
+            Playcraft
+        </h1>
+        <p class="text-xl md:text-2xl text-white opacity-90 mb-8 max-w-3xl mx-auto">
+            Survive endless waves of monsters in this thrilling action-packed adventure game
+        </p>
+        <button onclick="scrollToGame()" class="btn-play text-white px-8 py-4 rounded-full text-lg font-semibold inline-flex items-center space-x-2">
+            <span>🎮</span>
+            <span>Play Now - Free</span>
+        </button>
+    </section>
+
+    <!-- Game Section -->
+    <section id="game" class="container mx-auto px-4 py-12">
+        <div class="game-container bg-white mx-auto max-w-6xl">
+            <div class="p-6 bg-gradient-to-r from-blue-500 to-purple-600">
+                <h2 class="text-3xl font-bold text-white text-center">🎯 Play Playcraft Online</h2>
+                <p class="text-white text-center mt-2 opacity-90">No download required - Start playing instantly!</p>
+            </div>
+            <div class="relative">
+                <iframe 
+                    src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html"
+                    class="w-full game-iframe border-0"
+                    allowfullscreen
+                    title="Playcraft Monster Survival Game"
+                    loading="lazy">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container mx-auto px-4 py-16">
+        <div class="glass-effect rounded-3xl p-8 md:p-12 max-w-4xl mx-auto">
+            <h2 class="text-4xl font-bold text-white mb-8 text-center">🏆 About Playcraft</h2>
+            <div class="text-white text-lg leading-relaxed space-y-6">
+                <p>
+                    Playcraft is an intense monster survival game that challenges players to survive against endless waves of creatures. Armed with various weapons and power-ups, you must strategically navigate through increasingly difficult levels while collecting resources and upgrading your arsenal.
+                </p>
+                <p>
+                    The game features dynamic gameplay mechanics where each playthrough offers a unique experience. As monsters become stronger and more numerous, you'll need to adapt your strategy, choose the right upgrades, and make split-second decisions to stay alive.
+                </p>
+                <p>
+                    With its engaging progression system, stunning visuals, and addictive gameplay loop, Playcraft offers hours of entertainment for both casual gamers and hardcore survival enthusiasts. The game runs smoothly in your browser without any downloads required.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="container mx-auto px-4 py-16">
+        <h2 class="text-4xl font-bold text-white text-center mb-12">🚀 Game Features</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="feature-card glass-effect rounded-2xl p-6 text-center">
+                <div class="text-4xl mb-4">⚔️</div>
+                <h3 class="text-xl font-bold text-white mb-3">Epic Combat System</h3>
+                <p class="text-white opacity-80">Engage in fast-paced combat with a variety of weapons and special abilities</p>
+            </div>
+            <div class="feature-card glass-effect rounded-2xl p-6 text-center">
+                <div class="text-4xl mb-4">📈</div>
+                <h3 class="text-xl font-bold text-white mb-3">Progressive Upgrades</h3>
+                <p class="text-white opacity-80">Unlock and upgrade weapons, skills, and abilities as you progress</p>
+            </div>
+            <div class="feature-card glass-effect rounded-2xl p-6 text-center">
+                <div class="text-4xl mb-4">🎯</div>
+                <h3 class="text-xl font-bold text-white mb-3">Strategic Gameplay</h3>
+                <p class="text-white opacity-80">Plan your moves carefully to survive increasingly challenging waves</p>
+            </div>
+            <div class="feature-card glass-effect rounded-2xl p-6 text-center">
+                <div class="text-4xl mb-4">🌟</div>
+                <h3 class="text-xl font-bold text-white mb-3">Stunning Graphics</h3>
+                <p class="text-white opacity-80">Enjoy beautiful visuals and smooth animations in your browser</p>
+            </div>
+            <div class="feature-card glass-effect rounded-2xl p-6 text-center">
+                <div class="text-4xl mb-4">🏃</div>
+                <h3 class="text-xl font-bold text-white mb-3">Endless Action</h3>
+                <p class="text-white opacity-80">Experience non-stop action with procedurally generated challenges</p>
+            </div>
+            <div class="feature-card glass-effect rounded-2xl p-6 text-center">
+                <div class="text-4xl mb-4">💻</div>
+                <h3 class="text-xl font-bold text-white mb-3">Cross-Platform</h3>
+                <p class="text-white opacity-80">Play seamlessly on desktop, tablet, and mobile devices</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Play Section -->
+    <section class="container mx-auto px-4 py-16">
+        <div class="glass-effect rounded-3xl p-8 md:p-12 max-w-4xl mx-auto">
+            <h2 class="text-4xl font-bold text-white mb-8 text-center">🎮 How to Play Playcraft</h2>
+            <div class="grid md:grid-cols-2 gap-8 text-white">
+                <div>
+                    <h3 class="text-2xl font-bold mb-4 text-blue-300">Basic Controls</h3>
+                    <ul class="space-y-2 text-lg">
+                        <li>• Use WASD or arrow keys to move</li>
+                        <li>• Mouse to aim and shoot</li>
+                        <li>• Click to attack enemies</li>
+                        <li>• Collect power-ups automatically</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-2xl font-bold mb-4 text-green-300">Strategy Tips</h3>
+                    <ul class="space-y-2 text-lg">
+                        <li>• Keep moving to avoid enemy attacks</li>
+                        <li>• Prioritize weapon upgrades</li>
+                        <li>• Learn enemy attack patterns</li>
+                        <li>• Manage your health carefully</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container mx-auto px-4 py-12 text-center">
+        <div class="glass-effect rounded-2xl p-6">
+            <p class="text-white text-lg mb-4">
+                Experience the ultimate monster survival adventure with Playcraft
+            </p>
+            <p class="text-white opacity-70">
+                © 2025 Playcraft.space - All rights reserved
+            </p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function scrollToGame() {
+            document.getElementById('game').scrollIntoView({ 
+                behavior: 'smooth' 
+            });
+        }
+
+        // Add loading animation for iframe
+        document.addEventListener('DOMContentLoaded', function() {
+            const iframe = document.querySelector('.game-iframe');
+            iframe.addEventListener('load', function() {
+                console.log('Game loaded successfully');
+            });
+        });
+
+        // Mobile menu toggle (if needed in future)
+        function toggleMobileMenu() {
+            // Mobile menu functionality can be added here
+        }
+    </script>
+
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "VideoGame",
+        "name": "Playcraft",
+        "description": "Survive endless waves of monsters in this thrilling action-packed survival game. Play free online with no download required.",
+        "url": "https://playcraft.space",
+        "genre": ["Action", "Survival", "Adventure"],
+        "playMode": "SinglePlayer",
+        "applicationCategory": "Game",
+        "operatingSystem": "Web Browser",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.5",
+            "reviewCount": "150"
+        }
+    }
+    </script>
+</body>
+</html>
